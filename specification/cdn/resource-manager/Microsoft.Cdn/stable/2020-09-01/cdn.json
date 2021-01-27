@@ -40,7 +40,7 @@
           "Profiles"
         ],
         "description": "Lists all of the CDN profiles within an Azure subscription.",
-        "operationId": "Profiles_List",
+        "operationId": "Profiles_ListX",
         "x-ms-examples": {
           "Profiles_List": {
             "$ref": "./examples/Profiles_List.json"
@@ -5574,7 +5574,8 @@
             "Standard_955BandWidth_ChinaCdn",
             "Standard_AvgBandWidth_ChinaCdn",
             "StandardPlus_ChinaCdn",
-            "StandardPlus_955BandWidth_ChinaCdn"
+            "StandardPlus_955BandWidth_ChinaCdn",
+            "StandardPlus_AvgBandWidth_ChinaCdn"
           ],
           "type": "string",
           "x-ms-enum": {
